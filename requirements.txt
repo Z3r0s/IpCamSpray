@@ -1,0 +1,15 @@
+aiohttp==3.8.5            # For asynchronous HTTP requests
+asyncio==3.4.3            # Async event handling
+tqdm==4.66.1              # For progress bars during login attempts
+colorama==0.4.6           # For colored terminal output
+validators==0.20.0        # For URL validation
+cryptography==41.0.2      # For encrypting/decrypting credentials
+scikit-learn==1.3.0       # For training the anomaly detection model
+numpy==1.26.0             # Required for scikit-learn and data manipulation
+jsonpath-ng==1.5.3        # For parsing JSON responses with JSONPath
+lxml==4.9.3               # For parsing XML responses using XPath
+redis==5.0.9              # For interacting with Redis for distributed task queuing
+rq==1.12.0                # For creating job queues with Redis
+geoip2==4.6.0             # For geolocation-based proxy selection
+apscheduler==3.10.3       # For scheduling tasks and automating runs
+tls-client==0.4.0         # For JA3 fingerprint randomization with custom TLS sessions
